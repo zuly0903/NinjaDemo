@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">NinjaSuite</th></tr>
+<tr><td><a href="#t0">NinjaTest</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">91,541</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NinjaSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">NinjaTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ninjademo.Login_test</td><td><a href="#m0">LogInWithValidCrendential</a></td><td rowspan="1">1670701135230</td><td rowspan="1">8746</td></tr><tr><th colspan="4">NinjaTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">ninjademo.Login_test</td><td><a href="#m1">LoginWithInValidPasswordInValidEmail</a></td><td rowspan="1">1670701162654</td><td rowspan="1">1067</td></tr><tr class="passedeven"><td><a href="#m2">LoginWithInvalidPasswordValidEmail</a></td><td rowspan="1">1670701149127</td><td rowspan="1">687</td></tr><tr class="passedeven"><td><a href="#m3">LoginWithNoCredentials</a></td><td rowspan="1">1670701168857</td><td rowspan="1">661</td></tr><tr class="passedeven"><td><a href="#m4">LoginWithValidPasswordInValidEmail</a></td><td rowspan="1">1670701156905</td><td rowspan="1">876</td></tr><tr class="passedodd"><td rowspan="3">ninjademo.Regisetr_Test</td><td><a href="#m5">verifyRegisterationWithAllFields</a></td><td rowspan="1">1670701201885</td><td rowspan="1">1361</td></tr><tr class="passedodd"><td><a href="#m6">verifyRegisterationWithMyMandatoryFields</a></td><td rowspan="1">1670701210620</td><td rowspan="1">1096</td></tr><tr class="passedodd"><td><a href="#m7">verifyRegisterationWithNoField</a></td><td rowspan="1">1670701218913</td><td rowspan="1">476</td></tr><tr class="passedeven"><td rowspan="3">ninjademo.Search_Test</td><td><a href="#m8">verifySearchWithInValidProduct</a></td><td rowspan="1">1670701178685</td><td rowspan="1">597</td></tr><tr class="passedeven"><td><a href="#m9">verifySearchWithValidProduct</a></td><td rowspan="1">1670701185299</td><td rowspan="1">864</td></tr><tr class="passedeven"><td><a href="#m10">verifySearchWithoutProduct</a></td><td rowspan="1">1670701193044</td><td rowspan="1">441</td></tr></tbody>
+</table>
+<h2>NinjaTest</h2><h3 id="m0">ninjademo.Login_test#LogInWithValidCrendential</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[contains(text(),&apos;Edit your account information&apos;)]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at ninjademo.Login_test.LogInWithValidCrendential(Login_test.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ninjademo.Login_test#LoginWithInValidPasswordInValidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ninjademo.Login_test#LoginWithInvalidPasswordValidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ninjademo.Login_test#LoginWithNoCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ninjademo.Login_test#LoginWithValidPasswordInValidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ninjademo.Regisetr_Test#verifyRegisterationWithAllFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ninjademo.Regisetr_Test#verifyRegisterationWithMyMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">ninjademo.Regisetr_Test#verifyRegisterationWithNoField</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">ninjademo.Search_Test#verifySearchWithInValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">ninjademo.Search_Test#verifySearchWithValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">ninjademo.Search_Test#verifySearchWithoutProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

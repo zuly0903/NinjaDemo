@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NinjaSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NinjaTest(failed)">
+    <classes>
+      <class name="ninjademo.Login_test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LogInWithValidCrendential"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- ninjademo.Login_test -->
+    </classes>
+  </test> <!-- NinjaTest(failed) -->
+</suite> <!-- Failed suite [NinjaSuite] -->
